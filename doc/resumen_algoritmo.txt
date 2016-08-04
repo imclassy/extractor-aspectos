@@ -1,0 +1,5 @@
+1. Seleccionar conjunto de candidatos a objetos de aspectos (Inicialmente los sustantivos).**Tener en cuenta sustantivos multi-palabras ej: "equipo de sonido"
+2. Usar stemming o derivación para obtener las palabras raíz de cada candidato. 
+3. Reemplazar los candidatos por sus raices (Ahora los candidatos son las raices)
+3. Evaluar cada candidato en la ontologia difusa con su puntaje de relación con aspectos del dominio
+4. Remover candidatos que no cumplan con el minimo de puntaje definido.
